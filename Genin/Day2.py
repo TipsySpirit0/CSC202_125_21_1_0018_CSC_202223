@@ -1,3 +1,15 @@
+# BMI calculator
+print("Welcome to BMI Calculator")
+
+height = float(input("Enter your height in m:\n"))
+
+weight = float(input("Enter your weight in kg:\n"))
+
+BMI = weight / (height * height)
+
+print(f"Your BMI is {int(BMI)}")
+
+
 # Tip Calculator
 print("Welcome to the tip calculator")
 
