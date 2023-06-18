@@ -1,54 +1,54 @@
-# # Grading Program
+# Grading Program
 
-# student_scores = {
-#     "Harry": 81,
-#     "Ron": 78,
-#     "Hermoine": 99,
-#     "Draco": 74,
-#     "Neville": 62,
-# }
+student_scores = {
+    "Harry": 81,
+    "Ron": 78,
+    "Hermoine": 99,
+    "Draco": 74,
+    "Neville": 62,
+}
 
-# student_Grade = {}
+student_Grade = {}
 
-# for i in student_scores:
-#     value = student_scores[i]
-#     if value <= 70:
-#         student_Grade[value] = "Fail"
+for i in student_scores:
+    value = student_scores[i]
+    if value <= 70:
+        student_Grade[value] = "Fail"
         
-#     elif value >= 71 and value <= 80:
-#         student_Grade[value] = "Acceptable"
+    elif value >= 71 and value <= 80:
+        student_Grade[value] = "Acceptable"
         
-#     elif value >= 81 and value <= 90:
-#         student_Grade[value] = "Exceeds expectation"
+    elif value >= 81 and value <= 90:
+        student_Grade[value] = "Exceeds expectation"
     
-#     elif value >= 91 and value <= 100:
-#         student_Grade[value] = "Outstanding"
+    elif value >= 91 and value <= 100:
+        student_Grade[value] = "Outstanding"
         
-# print(student_Grade)
+print(student_Grade)
 
-# # Dictionary in list
+# Dictionary in list
 
-# travel_log = [
-#     {
-#         "country": "France",
-#         "visits": 12,
-#         "cities":["Paris", "lille", "Dijon"],
-#     },
-#     {
-#         "country": "Germany",
-#         "visits": 5,
-#         "cities":["Berlin", "Hamburg", "stuttgart"],
-#     }
-# ]
-# def add_new_country(country_visited, times_visited, cities_visited):
-#     country ={}
-#     country["country"] = country_visited
-#     country["visits"] = times_visited
-#     country["cities"] = cities_visited
-#     travel_log.append(country)
+travel_log = [
+    {
+        "country": "France",
+        "visits": 12,
+        "cities":["Paris", "lille", "Dijon"],
+    },
+    {
+        "country": "Germany",
+        "visits": 5,
+        "cities":["Berlin", "Hamburg", "stuttgart"],
+    }
+]
+def add_new_country(country_visited, times_visited, cities_visited):
+    country ={}
+    country["country"] = country_visited
+    country["visits"] = times_visited
+    country["cities"] = cities_visited
+    travel_log.append(country)
     
-# add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
-# print(travel_log)
+add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+print(travel_log)
 
 # Secret auction
 
