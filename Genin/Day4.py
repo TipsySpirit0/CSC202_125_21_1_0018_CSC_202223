@@ -14,7 +14,7 @@ choice = random.randint(0, amount-1)
 pay = names[choice]
 
 pay = random.choice(names)
-print(f"Congrats {PAYMENT_REQUIRED} will be paying today")
+print(f"Congrats {pay} will be paying today")
 
 row1 = ["#", "#", "#"]
 row2 = ["#", "#", "#"]
